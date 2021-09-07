@@ -41,3 +41,4 @@ console.log(first,second);
 writeFileSync('./content/new-text.txt', `Here is the result: ${first}, ${second}`);
 //default flag in the third paramter options is W, 'a' means append
 writeFileSync('./content/new-text.txt', 'append text', {flag: 'a'});
+console.log('hello world')
